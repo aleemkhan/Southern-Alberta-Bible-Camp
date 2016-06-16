@@ -125,7 +125,13 @@ $(document).ready(function(){
 	if(gdb('registered') != 'true'){
 		document.addEventListener('deviceready', onDeviceReady, true);
 	}else{
-
+		setTimeout(
+			function () 
+			{ 
+			 	window.top.location = "home.html";
+			}, 
+			5000
+		);
 	}
 });
 

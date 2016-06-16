@@ -63,3 +63,4 @@ if(gdb('registeredDevice')!='true'){
 }
 
 registeredDevice();
+
